@@ -1,0 +1,69 @@
+body
+{
+    background-color: #231F20;
+    
+}
+
+header
+{
+    background-color: #7EBDC2;
+    color: black;
+}
+
+main
+{
+    background-color: #BB4430;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+footer
+{
+    background-color: #7EBDC2;
+    color: black;  
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    margin-bottom: 20%;
+}
+
+h1
+{
+    text-align: center;
+    font-family: Optima;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+h2
+{
+    margin-left: 60px;
+	margin-right: 60px;
+    font-family: Optima;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+p
+{
+    margin-left: 60px;
+	margin-right: 60px;
+}
+
+li
+{
+    margin-left: 60px;
+	margin-right: 60px;
+    font-size: 18px;
+}
+
+a
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+a:hover
+{
+	text-decoration: underline;
+	color: #F3DFA2;
+}
