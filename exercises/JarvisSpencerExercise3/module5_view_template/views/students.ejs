@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <title>All Students</title>
+</head>
+<body>
+    <h2>Student Names</h2>
+    <% if(student_name.length > 0) {%>
+        <ul>
+        <% for (let i = 0; i < student_name.length; i++) {%>
+            <li><%= student_name[i]%></li>
+        <%}%>
+        </ul>
+    <% } else {%>
+        <p>There is no student to display</p>
+    <%}%>
+</body>
+</html>
